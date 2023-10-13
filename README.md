@@ -1,4 +1,4 @@
-# rafaella-personal-page
+# Rafaella Matos's Personal Page
 A simple responsive personal page template with support for light and dark modes.
 
 ## Overview
