@@ -6,6 +6,7 @@
     <title>Rafaella Matos's Personal Page</title>
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/section.css" />
     <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/mediaqueries.css" />
   </head>
@@ -42,6 +43,26 @@
         </div>
       </div>
     </nav>
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/images/profile-pic-circle.png" alt="Rafaella Matos's Profile Picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hi, I am Rafaella Matos...</p>
+            <h1 class="title">Rafaella Matos</h1>
+            <p class="section__text__p2">Full Stack Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick=openResume()>Download CV</button>
+                <button class="btn btn-color-1" onclick=goContact()>Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/images/linkedin.png" alt="My Linkedin profile" class="icon" onclick=goLinkedin()>
+                <img src="./assets/images/github.png" alt="My Github profile" class="icon" onclick=goGithub()>
+                <img src="./assets/images/instagram.png" alt="My Instagram profile" class="icon" onclick=goInstagram()>
+            </div>
+        </div>
+    </section>
 
     <!--
     <footer id="footer-year">${year}</footer>
